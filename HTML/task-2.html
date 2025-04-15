@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <title>Web</title>
+      <style>
+.sidebar
+{
+   position: fixed;
+
+  top: 30px;
+  left: 0px;
+  bottom: 30px;
+  width: 50%;
+   background-color:black;
+   color:whitesmoke;
+  
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+  
+  
+}
+.sidebar_like{
+ height: 50px;
+width: 50px;
+  background-color:rgb(5, 5, 5);
+
+  display: flex;
+   align-items: center;
+  
+   margin-bottom: 10px;
+   justify-content: flex-start;
+   padding-left: 20px;
+
+   }
+.sidebar_like:hover{
+  background-color: gray;
+  cursor: pointer;
+  width: 75px;
+  border-radius: 5px;
+}
+
+
+      </style>
+  </head>
+  <body style=" padding-right: 75px;">
+        <div class="sidebar">
+          <div class="sidebar_like">Home</div>
+          <div class="sidebar_like">About</div>
+          <div class="sidebar_like">Service</div>
+          <div class="sidebar_like">Portfolio</div>
+          <div class="sidebar_like">Contact</div>
+         
+        </div>
+  </body>
+</html>
